@@ -1,0 +1,13 @@
+<article class="drop-card{{#if open}} open{{/if}}" data-dropdown>
+    <button type="button" class="drop-card__header" data-toggle-dropdown>
+        <span class="t-h4">{{ title }}</span>
+        <img src="src/assets/img/chevron.svg" class="drop-card__chevron" alt="chevron" loading="lazy" />
+    </button>
+    <div class="drop-card__content">
+        <picture>
+            <source srcset="src/assets/img/{{ image }}" width="790" height="411" media="(min-width: 768px)" class="drop-card__img" />
+            <img src="src/assets/img/{{ image }}" width="300" height="156" alt="" loading="lazy" class="drop-card__img" />
+        </picture>
+        <p class="t-p1 mt-xs">{{ text }}</p>
+    </div>
+</article>

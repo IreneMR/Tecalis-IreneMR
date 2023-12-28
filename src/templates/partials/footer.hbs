@@ -1,0 +1,30 @@
+<footer class="footer">
+    <div class="footer__wrapper wrapper">
+        <a href="/" class="footer__logo">
+            <img src="src/assets/img/logo-tecalis.svg" width="82" height="48" alt="Logo" loading="lazy" />
+        </a>
+        <div class="footer__container">
+            {{#each footer.infoBlocks}}
+                <div class="footer__col{{#if siblings}} footer__col--siblings{{/if}}">
+                    <h5 class="t-h5 footer__title mb-xxs">{{ title }}</h5>
+                    <div class="footer__row">
+                        {{#each list}}
+                            <div class="footer__subcol">
+                                {{#if title}}
+                                    <a href="{{ titleHref }}" class="t-p1 footer__subtitle link mb-xxs">{{ title }} </a>
+                                {{/if}}
+                                <ul>
+                                    {{#each elems}}
+                                        <li>
+                                            <a href="{{ href }}" class="t-p2">{{ name }}</a>
+                                        </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        {{/each}}
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</footer>

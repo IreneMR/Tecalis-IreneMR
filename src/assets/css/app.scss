@@ -1,0 +1,14 @@
+// Set SCSS custom settings.
+@import './settings/mixins';
+
+// Import common settings styles: default variables and base mixins.
+@import './1_settings';
+
+// Import base styles: reset, UI KIT common CSS classes.
+@import './2_base';
+
+@import './3_elements';
+
+@import './4_blocks';
+
+@import './5_components';

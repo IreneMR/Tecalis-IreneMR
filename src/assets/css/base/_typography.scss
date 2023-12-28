@@ -1,0 +1,129 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 100%;
+}
+
+body,
+button,
+input {
+  font-family: $f-text, sans-serif;
+  color: $c-text;
+  font: rem(16) / 130% $f-text;
+}
+
+[role='button'] {
+  cursor: pointer;
+}
+
+// FONT STYLES
+$t-h1: (
+  mobile: (
+    font: $f-bold #{rem(48)} / 120% $f-text,
+  ),
+  desktop: (
+    font-size: #{rem(48)},
+    line-height: 130%,
+  ),
+);
+
+$t-h2: (
+  mobile: (
+    font: $f-bold #{rem(28)} / 120% $f-text,
+  ),
+  desktop: (
+    font-size: #{rem(36)},
+    line-height: 130%,
+  ),
+);
+
+$t-h3: (
+  mobile: (
+    font: $f-bold #{rem(18)} / 120% $f-text,
+  ),
+  desktop: (
+    font-size: #{rem(24)},
+    line-height: 130%,
+  ),
+);
+
+$t-h4: (
+  mobile: (
+    font: $f-bold #{rem(16)} / 120% $f-text,
+  ),
+  desktop: (
+    font-size: #{rem(18)},
+    line-height: 130%,
+  ),
+);
+
+$t-h5: (
+  mobile: (
+    font: $f-bold #{rem(14)} / 120% $f-text,
+  ),
+  desktop: (
+    font-size: #{rem(16)},
+    line-height: 130%,
+  ),
+);
+
+$t-p1: (
+  mobile: (
+    font: $f-regular #{rem(14)} / 120% $f-text,
+  ),
+  desktop: (
+    font-size: #{rem(16)},
+    line-height: 130%,
+  ),
+);
+
+$t-p2: (
+  mobile: (
+    font: $f-regular #{rem(12)} / 130% $f-text,
+  ),
+  desktop: (
+    font-size: #{rem(14)},
+    line-height: 140%,
+  ),
+);
+
+// FONT CLASSES
+%t-h1,
+.t-h1 {
+  @include font-style($t-h1);
+}
+
+%t-h2,
+.t-h2 {
+  @include font-style($t-h2);
+}
+
+%t-h3,
+.t-h3 {
+  @include font-style($t-h3);
+}
+
+%t-h4,
+.t-h4 {
+  @include font-style($t-h4);
+}
+
+%t-h5,
+.t-h5 {
+  @include font-style($t-h5);
+}
+
+%t-p1,
+.t-p1 {
+  @include font-style($t-p1);
+}
+
+%t-p2,
+.t-p2 {
+  @include font-style($t-p2);
+}

@@ -1,0 +1,16 @@
+.button-primary {
+  display: inline-flex;
+  height: rem(56);
+  padding: rem(16) rem(32);
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: $c-04;
+  color: $c-06;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $c-02;
+    color: $c-06;
+  }
+}

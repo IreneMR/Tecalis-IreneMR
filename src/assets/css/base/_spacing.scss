@@ -1,0 +1,30 @@
+// Spacing
+$spacing-desktop: 8 16 24 32 48 64 128;
+$spacing-mobile: '8' '16' 16 24 '32' 32 48;
+$spacing-names: 'xxs' 'xs' 's' 'm' 'l' 'xl' 'xxl';
+
+@each $size in $spacing-mobile {
+  $i: index($spacing-mobile, $size);
+
+  .mb-#{nth($spacing-names, $i)} {
+    margin-bottom: #{$size}px;
+  }
+
+  .mt-#{nth($spacing-names, $i)} {
+    margin-top: #{$size}px;
+  }
+}
+
+@each $size in $spacing-desktop {
+  $i: index($spacing-desktop, $size);
+
+  @include breakpoint(tablet) {
+    .mb-#{nth($spacing-names, $i)} {
+      margin-bottom: #{$size}px;
+    }
+
+    .mt-#{nth($spacing-names, $i)} {
+      margin-top: #{$size}px;
+    }
+  }
+}

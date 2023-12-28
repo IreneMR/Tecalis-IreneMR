@@ -1,0 +1,8 @@
+// REM conversor
+// use:
+//  .element {
+//    height: rem(50);
+//   }
+@function rem($size) {
+  @return #{calc($size / $f-base)}rem;
+}

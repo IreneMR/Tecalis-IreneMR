@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{htmlWebpackPlugin.options.title}}</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Tecalis">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Tecalis">
+
+    <link rel="shortcut icon" href="./src/assets/img/favicon.ico"><!--16x16 o 32x32-->
+    <link rel="apple-touch-icon" href="./src/assets/img/favicon_iOS.png"><!--114x114-->
+</head>
+<body>
+    {{> header }}
+    <main role="main">
+        {{#block "content"}}{{/block}}
+    </main>
+    {{> footer }}
+</body>
+</html>

@@ -1,0 +1,19 @@
+<section class="info-section wrapper">
+    <div class="info-section__main">
+        <h2 class="t-h2 info-section__title">{{ infoSection.title }}</h2>
+        <div class="info-section__selectors">
+            <ul>
+                {{#each infoSection.buttons}}
+                    <li class="mb-xs">
+                        <button type="button" class="t-h4 info-section__item{{#if active}} info-section__item--active{{/if}}" data-show-card="{{ id }}">{{ name }}</button>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="info-section__container">
+        {{#each infoSection.cards}}
+            {{> ../blocks/drop-card }}
+        {{/each}}
+    </div>
+</section>

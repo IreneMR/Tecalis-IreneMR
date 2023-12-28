@@ -1,0 +1,16 @@
+.tag {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 2px solid $c-03;
+  color: $c-03;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $c-03;
+    color: $c-06;
+  }
+}

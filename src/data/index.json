@@ -1,0 +1,233 @@
+{
+    "header": {
+        "menu": [
+            {
+                "name": "Section",
+                "href": "#"
+            },
+            {
+                "name": "Section",
+                "href": "#"
+            },
+            {
+                "name": "Section",
+                "href": "#"
+            },
+            {
+                "name": "Section",
+                "href": "#"
+            },
+            {
+                "name": "Section",
+                "href": "#"
+            }
+        ]
+    },
+    "heroHeader": {
+        "tag": "LOREM",
+        "title": "Lorem ipsum dolor sit amet consectetur adipis",
+        "text": "Lorem ipsum dolor sit amet, <a href=\"#\" class=\"link\">consectetur adipiscing</a> elit. <a href=\"#\" class=\"link\">Mollis adipiscing</a> in turpis luctus ipsum, amet. Risus ac mauris pellentesque sed nunc nulla accumsan nec. Risus gravida donec tempor feugiat."
+    },
+    "infoSection": {
+        "title": "Lorem ipsum dolor sit amet",
+        "cards": [
+            {
+                "open": true,
+                "title": "Lorem Ipsum",
+                "image": "img-2.png",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed amet tortor diam habitasse tristique morbi tempus. Auctor semper diam dignissim turpis nisl ultricies tellus mi. Metus."
+            },
+            {
+                "title": "Lorem Ipsum",
+                "image": "img-2.png",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed amet tortor diam habitasse tristique morbi tempus. Auctor semper diam dignissim turpis nisl ultricies tellus mi. Metus."
+            },
+            {
+                "title": "Lorem Ipsum",
+                "image": "img-2.png",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed amet tortor diam habitasse tristique morbi tempus. Auctor semper diam dignissim turpis nisl ultricies tellus mi. Metus."
+            }
+        ],
+        "buttons": [
+            {
+                "active": true,
+                "name": "Lorem Ipsum",
+                "id": 0
+            },
+            {
+                "name": "Lorem Ipsum",
+                "id": 1
+            },
+            {
+                "name": "Lorem Ipsum",
+                "id": 2
+            }
+        ]
+    },
+    "footer": {
+        "infoBlocks": [
+            {
+                "title": "Lorem Ipsum",
+                "list": [
+                    {
+                        "elems": [
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Lorem Ipsum",
+                "list": [
+                    {
+                        "elems": [
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Lorem Ipsum",
+                "siblings": true,
+                "list": [
+                    {
+                        "title": "Title",
+                        "titleHref": "#",
+                        "elems": [
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Title",
+                        "titleHref": "#",
+                        "elems": [
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Lorem Ipsum",
+                "list": [
+                    {
+                        "elems": [
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Lorem Ipsum",
+                "list": [
+                    {
+                        "elems": [
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            },
+                            {
+                                "name": "Section",
+                                "href": "#"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

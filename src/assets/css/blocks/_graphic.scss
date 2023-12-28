@@ -1,0 +1,13 @@
+.graphic {
+  display: none;
+
+  @include breakpoint(tablet) {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: $z-below;
+    width: rem(587);
+    height: rem(315);
+  }
+}

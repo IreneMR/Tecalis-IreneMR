@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $c-text;
+  font-family: $f-text;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: $g-max-width + $g-padding-mobile * 2;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $g-padding-mobile;
+  padding-right: $g-padding-mobile;
+
+  @include breakpoint(tablet) {
+    padding-left: $g-padding-tablet;
+    padding-right: $g-padding-tablet;
+  }
+
+  @include breakpoint(desktop) {
+    padding-left: $g-padding-mobile;
+    padding-right: $g-padding-mobile;
+  }
+}
